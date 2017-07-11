@@ -11,3 +11,6 @@ Repo to transfer:
 
 <!-- keep this next line if true -->
 I am also interested in continuing to help as a maintainer of this plugin 👍
+
+<!-- making the transfer --->
+**NOTE**: Once a maintainer is assigned to this issue and gives it a 👍, transfer the repo to them following these instructions: https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/
