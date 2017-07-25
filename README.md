@@ -1,35 +1,49 @@
-## Sensu Plugins Feature Requests
+# Community
 
-Your place to contribute to Sensu plugins and their maintainers.
+Welcome to the Sensu Plugin Community repo! This is the starting point for becoming a contributor to the extensive set of community maintained plugins and extensions.
 
-## Background
+* [Become an active member of the Sensu Community](#become-an-active-member-of-the-sensu-community)
+* [How you can contribute](#how-you-can-contribute)
+* [About the Sensu Plugins organization](#about-the-sensu-plugins-organization)
 
-Sensu plugins can be found [all over GitHub](https://github.com/search?utf8=%E2%9C%93&q=sensu-plugin&type=). Community maintainers of Sensu collect them, code review and manage their releases under the [Sensu Plugins organization](https://github.com/sensu-plugins). This results in [the many gems](https://rubygems.org/search?utf8=%E2%9C%93&query=sensu-plugin) we all rely on.
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
 
-## How to Use This Repo
+## Your Maintainers
 
-Please [open Issues](https://github.com/sensu-plugins/sensu-plugins-feature-requests/issues) for anything on your mind that will help the community succeed at having **the best collection of monitoring plugins.**
+Thanks goes to these wonderful people for helping the community thrive:
 
-Common requests are:
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars3.githubusercontent.com/u/3145127?v=4" width="100px;"/><br /><sub>Ben Abrams</sub>](https://benbrams.it)<br /> | [<img src="https://avatars1.githubusercontent.com/u/328689?v=4" width="100px;"/><br /><sub>Eric Heydrick</sub>](https://github.com/eheydrick)<br /> | [<img src="https://avatars1.githubusercontent.com/u/672940?v=4" width="100px;"/><br /><sub>Matt Jones</sub>](https://github.com/mattyjones)<br /> | [<img src="https://avatars0.githubusercontent.com/u/3778974?v=4" width="100px;"/><br /><sub>Shane Starcher</sub>](http://shanestarcher.com)<br /> | [<img src="https://avatars3.githubusercontent.com/u/1744971?v=4" width="100px;"/><br /><sub>Matt Broberg</sub>](https://mbbroberg.github.io/)<br /> |
+| :---: | :---: | :---: | :---: | :---: |
+| Community Owner | Community Owner | Community Maintainer | Community Maintainer | Sensu Lead |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-* Transfer ownership of your rad Sensu plugin to this organization ([example][1])
-* Offer an awesome idea that will help others make great plugins ([example][3])
+Please reach out to any of us if you need anything from the community!
 
-## How You Can Help
+## Become an active member of the Sensu Community
+
+Participation as part of the Sensu community happens on these platforms:
+
+* **[Sensu Community Slack](http://sensucommunityslack.herokuapp.com/)** for regular conversation
+* Q&A happens over mailing lists for [Sensu Users](https://groups.google.com/forum/#!forum/sensu-users) and [Sensu Developers](https://groups.google.com/forum/#!forum/sensu-dev)
+* For news, subscribe to [the Sensu Newsletter](https://sensuapp.org/#newsletter)
+* We also chat on Twitter using [#monitoringlove](https://twitter.com/hashtag/monitoringlove?lang=en) or from [@Sensu](https://twitter.com/sensu)
+
+## How you can contribute
 
 The success of Sensu depends on its contributors. You can always help the maintainers by:
 
-* [Reviewing open PRs][4] (especially if you're familiar with problem it solves)
-* Helping review and comment on [open Issues][5] (especially older ones)
-* Opening PRs that resolve [open Issues][5]
-* Volunteer as a maintainer (but only after you've done :point_up: a bunch first)
+1. Regularly helping others on Slack and the mailing lists
+1. [Reviewing open PRs][4] (especially if you're familiar with problem it solves)
+1. Helping review and comment on [open Issues][5] (especially older ones)
+1. Opening PRs that resolve [open Issues][5]
+1. Volunteer as a maintainer (but after you've done :point_up: a bunch first)
 
-And **thank you** for your contribution. It adds to the monitoring :heart:.
+And **thank you** for your contribution. It adds to the #monitoringlove :heart:.
 
-## Other Resources
+## About the Sensu Plugins organization
 
-If you're working on building your own plugins, use [the skeleton plugin](https://github.com/sensu-plugins/sensu-plugins-skel) to get started!
-
+Sensu plugins can be found [all over GitHub](https://github.com/search?utf8=%E2%9C%93&q=sensu-plugin&type=). Community maintainers of Sensu collect them, code review and manage their releases under the [Sensu Plugins organization](https://github.com/sensu-plugins). This results in [the many gems](https://rubygems.org/search?utf8=%E2%9C%93&query=sensu-plugin) we all rely on.
 
 [1]: https://github.com/sensu-plugins/sensu-plugins-feature-requests/issues/23
 [2]: https://github.com/sensu-plugins/sensu-plugins-feature-requests/issues/17
