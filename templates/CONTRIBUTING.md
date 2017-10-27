@@ -22,13 +22,13 @@ Fork the appropriate repository by clicking the Fork button (top right) on GitHu
 From whatever directory you want to have this code, clone this repository and setup some sane defaults:
 
 ```
-$ git clone https://github.com/<you-username>/<this repo>
-# or: git clone git@github.com:$user/<this repo>.git
+$ git clone https://github.com/sensu-plugins/<%= repo_name %>/
+# or: git clone git@github.com:$user/<%= repo_name %>.git
 
-$ cd <this repo>
+$ cd <%= repo_name %>
 
-$ git remote add upstream https://github.com/sensu-plugins/<this repo>.git
-# or: git remote add upstream git@github.com:sensu-plugins/<this repo>.git
+$ git remote add upstream https://github.com/sensu-plugins/<%= repo_name %>.git
+# or: git remote add upstream git@github.com:sensu-plugins/<%= repo_name %>.git
 
 # Never allow a push to upstream master
 $ git remote set-url --push upstream no_push
@@ -92,7 +92,7 @@ $ git push -f origin feature/myfeature
 
 ### 7) Create a Pull Request
 
-Create a pull request by visiting https://github.com/<your-username>/<this-repo> and following the instructions at the top of the screen.
+Create a pull request by visiting https://github.com/sensu-plugins/<%= repo_name %>/ and following the instructions at the top of the screen.
 
 After the PR is submitted, project maintainers will review it.
 
