@@ -37,9 +37,9 @@ You will also see channels for each major configuration management tool (like `#
 
 ### Sidecar Channels
 
-If activity in one channel or its integrations (with GitHub, Travis or otherwise) gets to be too high a volume, we can break it out into a separate place we call a **sidecar**.
+If activity in one channel or its integrations (GitHub, Travis, etc) gets to be too high a volume, we can break it out into a separate place we call a **sidecar**.
 
-If the volume is lower than our threshold (5 messages per day averaged over a week), it should go into the primary channel. For example, GitHub activity for [Sensu Ansible](https://github.com/sensu/sensu-ansible) is limited, so it goes directly into the `#ansible` channel. Plugins, on the other hand, are very active and have a `#plugins-activity` sidecar.
+If the volume is lower than our threshold (5 messages per day averaged over a week), it should go into the primary channel. For example, GitHub activity on [Sensu Ansible Playbook](https://github.com/sensu/sensu-ansible) and [Ansible Plugin](https://github.com/sensu-plugins/sensu-plugins-ansible) is low, so it goes directly into the `#ansible` channel. Plugins, on the other hand, are very active and have a `#plugins-activity` sidecar.
 
 Naming is still up for debate, but here were some proposed naming conventions for any "sidecar" channels:
 
