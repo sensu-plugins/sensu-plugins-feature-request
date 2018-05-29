@@ -9,10 +9,6 @@ Basically many of the plugins require the use of a compiler (typically c) on ins
 1. Reduce spin-up time, if you have instances in some sort of scaling group and you want to reduce the amount of time it takes for a machine to come up with monitoring. An alternative to this is to bake the gem installs into your image.
 1. Compilers are dev tools, they have no business being in a production environment.
 
-### Bad reasons
-
-1. Security: I have heard the argument many times that somehow having a compiler makes you less secure. This statement is often made by security teams that have no idea what they are talking about. If the attacker has enough access to a system to use a compiler then they would opt for either compiling on their machine and dropping the executable on the client or leverage the tools that are already on the box. The 2 most common targets at this point become the various shell such as `sh` or `bash` and interpretors such as `python` or `ruby`. Python is almost always guaranteed on \*nix. Ruby is currently guaranteed on any sensu install. This is **Security Theater** and does not really reduce any **real** attack vectors. This creates extra complexity in deployment without a good reason.
-
 ### Options
 
 If you are here because some security team believes compilers are really a valid attack vector, you have my sympathy. I hope the points above will be helpful. You also have 2 options to meet the request:
